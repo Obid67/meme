@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        
+        /* Style the header */
+        header {
+          background-color: seagreen;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+        }
+h1 {text-decoration: underline;}
+        /* Container for flexboxes */
+        section {
+          display: -webkit-flex;
+          display: flex;
+        }
+        
+        /* Style the navigation menu */
+        nav {
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          background: skyblue;
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        /* Style the content */
+        article {
+          -webkit-flex: 3;
+          -ms-flex: 3;
+          flex: 3;
+          background-color: aliceblue;
+          padding: 10px;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: slateblue;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+        
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+          section {
+            -webkit-flex-direction: column;
+            flex-direction: column;
+          }
+        }
+        </style>  
+</head>
+<body>
+    
+<header>
+    <h2>🔔MB_comms</h2>
+  </header>
+  
+  <section>
+    <nav>
+        The Services we offer include:
+      <ul>
+        <li><a href="index.html">4G Services</a></li>
+        <li><a href="Net.html">Networking</a></li>
+        <li><a href="IT.html">IT training progams and courses</a></li>
+      </ul>
+    </nav>
+    
+    <article>
+      <h1>IT Training</h1>
+      <p>We offer training in the following areas of Computer literacy:</p>
+      <ul>
+        <li>Basic Computer Skills.</li>
+        <li><dt>Programming</dt></li>
+        <dd>Java Script(6 month course)</dd>
+        <dd>PHP</dd>
+        <dd>Python</dd>
+        <dd>CSS(a 3 month Course)</dd>
+        <dd>HTML language(A 3 month course)</dd>
+        <li>Networking</li>
+        <li>Graphics Design</li>
+        <li>Jamb Registration</li> 
+        <li>IELT Exam hosting.</li>
+      </ul>
+      <iframe src="Net.html" frameborder="0" title="Networking_pg" height="300px" width="500px"></iframe>
+      <p><a href="Net.html" target="iframe_a">W3Schools.com</a></p>
+    </article>
+  </section>
+  
+  <footer>
+    <p>We offer services to make connecting to anyone easy.</p>
+  </footer>    
+</body>
+</html>
